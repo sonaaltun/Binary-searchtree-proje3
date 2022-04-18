@@ -1,0 +1,19 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+
+
+                                                       [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+                                                                        [5]
+                                                                     [4]   [6]
+                                                                  [3]         [7] 
+                                                               [2]               [8]
+                                                            [1]                     [9]
+                                                         [0]
+
+root= 5
+root'un sağından 6 bulunur
+root'un solunda 4 bulunur 
+soldakiler root'dan küçük sağdakiler root'dan büyük olacak şekilde bu sıralama yapılır. Ekleme yapılacaksa root'dan başlnır ve doğru alana eleman eklenir.
